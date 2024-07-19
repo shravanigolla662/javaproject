@@ -5,8 +5,8 @@ public class Banking {
 	int account_balance;
 
 	// Constructor to initialize account number and balance
-	public Banking(int account_num, int account_balance) {
-		super();
+	private Banking(int account_num, int account_balance) {
+		
 		this.account_num = account_num;
 		this.account_balance = account_balance;
 	}
